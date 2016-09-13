@@ -39,3 +39,7 @@ jspm_packages
 #license
 LICENSE
 license
+
+＃.DS_Store
+.DS_Store
+/*/.DS_Store
