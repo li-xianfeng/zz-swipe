@@ -58,6 +58,7 @@
     }
 </style>
 <script>
+import vueTouch from 'vue-touch';
 export default {
     data (){
         return {

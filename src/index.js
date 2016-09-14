@@ -1,2 +1,2 @@
-import swipe from './Swipe.vue';
-export default swipe;
+import Swipe from './Swipe.vue'
+export default Swipe;
