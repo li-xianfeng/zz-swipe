@@ -7,9 +7,8 @@
     "swipe",
     "vue"
   ],
-  "author": "lixianfeng0917@gmail.com",
+  "author": "lixianfeng@58ganji.com",
   "scripts": {
-    "dev": "node ./build/dev-server.js",
     "demo": "webpack --config ./build/webpack.demo.config.js",
     "build": "webpack --config ./build/webpack.config.js"
   },
