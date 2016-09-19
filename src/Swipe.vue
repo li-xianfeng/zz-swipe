@@ -76,7 +76,7 @@ export default {
             }
         },
         /*
-         * 是否开启自动轮播
+         * 自动轮播间隔时间，<=duration不启用
          */
         auto: {
             type: Number,
@@ -206,7 +206,11 @@ export default {
         /*
          * 初始化自动轮播功能
          */
-        if(this.auto)this.initAuto();
+        if( 0 < this.auto && this.duration < this.auto ){
+            this.initAuto();
+        }else{
+            if(this.auto !== 0)console.warn('property auto将被忽略；因为auto应同时大于0和this.duration');
+        }
     },
 
     methods: {

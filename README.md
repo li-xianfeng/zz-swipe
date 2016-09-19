@@ -39,7 +39,7 @@ new Vue({
 | Name          | Type          | Default  | Description |
 |:-------------:|:-------------:|:--------:|:-----------:|
 | imgs     | `Array`  | `[]` | 图片url，单张图片不建议使用本组件 |
-| auto     | `Number`| `0`| 设置自动轮播interval时间，<=0不启用自动轮播 |
+| auto     | `Number`| `0`| 设置自动轮播interval时间，<=duration不启用自动轮播(建议auto > duration+500) |
 | disableCustom | `Boolean` | `false`| 是否禁用手动轮播 |
 | duration | `Number` | `600` | 轮播滑动过程耗时，毫秒 |
 | height | `String` | `8rem` | 轮播框高度,需带上单位 |

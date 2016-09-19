@@ -16,5 +16,6 @@ new Vue({
                 ]
         }
     },
-    template: '<div><zz-swipe :imgs="imgs" height="13rem"></zz-swipe></div>'
+    // template: '<div><zz-swipe :imgs="imgs" height="13rem"></zz-swipe></div>'
+    template: '<div><p>＊自动轮播；<br>＊不显示小圆点；<br>＊图片居中显示［图2显示不全］；</p><zz-swipe :imgs="imgs" :show-indicators="false" :auto="3000"></zz-swipe><p class="not-first">＊同上；<br>＊添加禁止手动滑动；<br>＊显示整个图片［图2变形］；</p><zz-swipe :imgs="imgs" :show-indicators="false" :show-whole-img="true" :auto="3000" :disable-custom="true"></zz-swipe><p class="not-first">＊手动播放；<br>＊非默认高度</p><zz-swipe :imgs="imgs" height="13rem"></zz-swipe></div>'
 });
